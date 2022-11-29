@@ -1,0 +1,23 @@
+{
+  "name": "ai-datasetviewer",
+  "private": false,
+  "version": "1.0.0",
+  "homepage": "https://github.com/flycocke/ai-datasetviewer",
+  "files": [
+    "./"
+  ],
+  "main": "./umd/index.umd.js",
+  "module": "./es/index.es.js",
+  "types": "./src/components/DatasetViewer/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./es/index.es.js",
+      "require": "./umd/index.umd.js"
+    }
+  },
+  "dependencies": {
+    "fabric": "^5.2.4",
+    "lodash": "^4.17.21",
+    "randomcolor": "^0.6.2"
+  }
+}
